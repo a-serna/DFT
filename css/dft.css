@@ -1,0 +1,90 @@
+/* css file */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 700;
+  color: #0F2422; /* negro dft */
+}
+
+h1{
+  font-size: 2.5em;
+}
+h2{
+  font-size: 1.8em;
+}
+h3{
+  font-size: 1.2em;
+}
+
+.text-azul{
+  color: #4BA8AF;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.nav-link {
+  padding: 1.2rem 1rem;
+}
+
+.nav-pills a, .nav-item a{
+  color: #0F2422; /* negro dft */
+}
+
+.nav-item a:hover{
+  color: #4BA8AF; /* azul dft*/
+}
+
+.bg-menu{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-dft{
+  background: #0f2422; /* Old browsers */
+  background: -moz-linear-gradient(left, #0f2422 0%, #4ba8af 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #0f2422 0%,#4ba8af 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #0f2422 0%,#4ba8af 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2422', endColorstr='#4ba8af',GradientType=1 ); /* IE6-9 */
+}
+
+.border-dft {
+  background: -moz-linear-gradient(left, #0f2422 0%, #4ba8af 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #0f2422 0%,#4ba8af 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #0f2422 0%,#4ba8af 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  border-radius: 8px;
+  color: #122dff;
+  padding: 5px;
+}
+
+.border-dft div {
+  background: #fff;
+  border-radius: 6px;
+}
+
+.border-white{
+  border: 5px solid #ffffff;
+}
+
+.card, .card-header{
+  background-color: transparent !important;
+}
+
+.nav-pills .nav-link.active {
+  color: #fff;
+  background-color: #809991; /*gris dtf*/
+}
+.nav-pills .nav-link {
+  border-radius: 0;
+}
+
+.rounded-img {
+  border-radius: 50%!important;
+}
